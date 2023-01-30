@@ -41,7 +41,7 @@
   }
 
   /**
-   * Navbar links active state on scroll
+   * La barra de navegación vincula el estado activo en el desplazamiento
    */
   let navbarlinks = select('#navbar .scrollto', true)
   const navbarlinksActive = () => {
@@ -126,7 +126,7 @@
   }, true)
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scrool con desplazamiento en enlaces con un nombre de clase .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
